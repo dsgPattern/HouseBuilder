@@ -19,16 +19,16 @@ namespace HouseBuilder
 
         public string PrintHouse()
         {
-            var stringBuilder = new StringBuilder("This is a house with:");
+            var stringBuilder = new StringBuilder("This is a house with:\n");
             if (!HasRoof)
             {
-                stringBuilder.Append(" no roof, ");
+                stringBuilder.Append(" no roof - clear sky \n ");
             }
 
-            stringBuilder.Append($"{NoOfDoors} doors, {NoOfWindows} windows, ");
+            stringBuilder.Append($"{NoOfDoors} doors, \n {NoOfWindows} windows, \n");
             if (NoOfFloors > 0)
             {
-                stringBuilder.Append($"{NoOfFloors} floors.");
+                stringBuilder.Append($"{NoOfFloors} floors. \n");
             }
 
             if (!string.IsNullOrEmpty(LandscapeInformation))
@@ -44,6 +44,11 @@ namespace HouseBuilder
             if (HasAttic)
             {
                 stringBuilder.Append("For a nice office space, it comes with an attic.");
+            }
+
+            if (HasGarage)
+            {
+                stringBuilder.Append($" the house has a built-in garage that can accomodate {NoOfSupportedCars} cars");
             }
 
             return stringBuilder.ToString();

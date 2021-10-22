@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilder", "HouseBuilder.csproj", "{37BAE931-959D-40B2-B946-0902927AB8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseBuilder", "HouseBuilder.csproj", "{37BAE931-959D-40B2-B946-0902927AB8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilderFluentVariant", "..\HouseBuilderVariant\HouseBuilderFluentVariant.csproj", "{64359787-B9F5-41FE-BD0B-75CA183B8B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37BAE931-959D-40B2-B946-0902927AB8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BAE931-959D-40B2-B946-0902927AB8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BAE931-959D-40B2-B946-0902927AB8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64359787-B9F5-41FE-BD0B-75CA183B8B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64359787-B9F5-41FE-BD0B-75CA183B8B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64359787-B9F5-41FE-BD0B-75CA183B8B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64359787-B9F5-41FE-BD0B-75CA183B8B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
